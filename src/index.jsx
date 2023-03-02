@@ -9,15 +9,15 @@ import { SchemeColor } from "./components/SchemeColor";
   /* řešení f. */
 }
 {
-  palettes[0].colors.map((color) => {
+  palettes[0].colors.map((color) => (
     <div
       className="scheme-color"
       key={color}
       style={{ backgroundColor: color }}
     >
       {color}
-    </div>;
-  });
+    </div>
+  ));
 }
 {
   /* řešení g. */
